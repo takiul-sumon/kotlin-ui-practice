@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import AnnotatedStringWithListenerSample
 import SimpleTypo
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -30,7 +31,8 @@ class MainActivity : ComponentActivity() {
 
 //                showImage()
 //SimpleTypo()
-                OutlinedTextFieldPreview()
+//                OutlinedTextFieldPreview()
+                AnnotatedStringWithListenerSample()
             }
         }
     }
