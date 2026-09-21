@@ -17,6 +17,7 @@ import com.example.myapplication.fundamentalconcepts.AccessStringPreview
 import com.example.myapplication.fundamentalconcepts.Greeting
 import com.example.myapplication.fundamentalconcepts.GreetingPreview
 import com.example.myapplication.fundamentalconcepts.showImage
+import com.example.myapplication.outlinetextfield.OutlinedTextFieldPreview
 import com.example.myapplication.ui.theme.MyApplicationTheme
 
 class MainActivity : ComponentActivity() {
@@ -28,7 +29,8 @@ class MainActivity : ComponentActivity() {
 //                AccessStringPreview()
 
 //                showImage()
-SimpleTypo()
+//SimpleTypo()
+                OutlinedTextFieldPreview()
             }
         }
     }
