@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import SimpleTypo
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -15,6 +16,7 @@ import com.example.myapplication.fundamentalconcepts.AccessString
 import com.example.myapplication.fundamentalconcepts.AccessStringPreview
 import com.example.myapplication.fundamentalconcepts.Greeting
 import com.example.myapplication.fundamentalconcepts.GreetingPreview
+import com.example.myapplication.fundamentalconcepts.showImage
 import com.example.myapplication.ui.theme.MyApplicationTheme
 
 class MainActivity : ComponentActivity() {
@@ -23,7 +25,10 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             MyApplicationTheme {
-                AccessStringPreview()
+//                AccessStringPreview()
+
+//                showImage()
+SimpleTypo()
             }
         }
     }
